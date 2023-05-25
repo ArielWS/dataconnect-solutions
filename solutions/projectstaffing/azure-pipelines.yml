@@ -23,8 +23,8 @@ resources:
 variables:
   tag: ${{ parameters.tag_override }}
   skipTests: ${{ parameters.skipTests  }}
-  containerRegistryServConn: contosohub_docker_registry
-  blobStorageServConn: contoso_devops_arm_connection
+  containerRegistryServConn: ProjrctStafferDocker
+  blobStorageServConn: PsbloblStorage
   dockerRepositoryName: microsoft-gdc/project-staffing
   storageName: prjstfartifacts
   containerName: repository

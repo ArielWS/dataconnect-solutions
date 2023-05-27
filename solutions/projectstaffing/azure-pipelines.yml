@@ -71,7 +71,7 @@ stages:
           mavenPomFile: 'solutions/projectstaffing/jgraph/pom.xml'
           mavenOptions: '-Xmx3072m'
           javaHomeOption: 'JDKVersion'
-          jdkVersionOption: '1.8'
+          jdkVersionOption: '3.1'
           publishJUnitResults: true
           testResultsFiles: '**/TEST-*.xml'
           options: '-DskipTests=$(skipTests) -DdockerTag=$(tag)'
